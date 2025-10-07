@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s
+}
+
+body.dark-theme{
+    background-color:rgb(56, 56, 56);
+    color: azure;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+#themeToggle{
+    padding: 20px 25px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    border: none;
+    color: bisque;
+    cursor: pointer;
+}
+
+
+.dark-theme #themeToggle{
+    background-color: gray;
+}
+
+header a{
+    padding: 20px 25px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    border: none;
+    color: bisque;
+    cursor: pointer;
+}
+
+.dark-theme #homeButton{
+    background-color: gray;
+}
+
+
+#addTaskBtn{
+background-color: rgb(43, 112, 54);
+border-radius: 18px;
+height: 45px;
+align-content: center;
+color: rgb(224, 224, 224);
+font-size: large;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: none;
+transition: all 0.3s ease;
+cursor: pointer;
+margin-left: 30px;
+display:table;
+justify-content: right;
+}
+
+#addTaskBtn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(58, 167, 76);
+}
+
+#taskInput{
+border-radius: 18px;
+height: 45px;
+align-content: center;
+color: rgb(0, 0, 0);
+font-size: large;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: none;
+}
+
+
+div #totalTasks{
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
