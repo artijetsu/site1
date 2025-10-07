@@ -1,0 +1,60 @@
+.sec1{
+    background-color:rgb(18, 14, 29);
+    width: 100%;
+    border-top: 2px solid cadetblue;
+    padding: 100px 0;
+}
+
+.stroka{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card{
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+}
+
+.avataruser{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.username{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 120px;
+    margin-top: 0;
+}
+.ochem{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-brands{
+    color: whitesmoke;
+transition: all 0.3s ease
+}
+
+.fa-brands:hover{
+color: green;
+}

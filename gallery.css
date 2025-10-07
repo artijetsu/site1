@@ -1,0 +1,58 @@
+.sec1{
+    background-color:rgb(18, 14, 29);
+    width: 100%;
+    border-top: 2px solid cadetblue;
+    padding: 100px 0;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 120px;
+    margin-top: 0;
+}
+
+.ryad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.foto img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 4/3; 
+    transition: transform 0.3s ease;
+}
+
+.foto img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
